@@ -82,7 +82,7 @@ const Hero = () => {
 							Join the Ultimate <span className="text-neon-green">Chess Community</span>
 						</h1>
 						<p className="text-base sm:text-lg lg:text-xl text-gray-300">
-							Connect, compete, and climb the ranks with BM Samay Raina in India's biggest chess community.
+							Connect, compete, and climb the ranks with En Passant, Delhi NCR's biggest chess community.
 						</p>
 						<div className="inline-flex items-center bg-neon-green/20 rounded-full px-4 py-2 text-neon-green font-semibold">
 							<Counter end={totalUsers} /> <span className="ml-2">Users</span>
@@ -107,7 +107,7 @@ const Hero = () => {
 						<div className="relative w-full max-w-md mx-auto">
 							<img
 								src={samayheader}
-								alt="Samay Raina"
+								alt="En Passant"
 								className="rounded-lg shadow-2xl w-full h-[300px] sm:h-[400px] object-cover object-center"
 							/>
 							<div className="absolute -bottom-36 sm:-bottom-32 -right-8 sm:-right-16 transform rotate-6 hover:rotate-0 transition-transform duration-300 scale-75 sm:scale-100">
@@ -128,7 +128,7 @@ const Partner = () => (
 );
 
 const HowItWorks = () => (
-	<section id="how-it-works" className="py-24 bg-gradient-to-br from-[#1a3a1a] to-[#0a1f0a] rounded-3xl p-12 shadow-xl mb-24">
+	<section id="how-it-works" className="py-24 bg-gradient-to-br from-[#663025] to-[#1b0701] rounded-3xl p-12 shadow-xl mb-24">
 		<div className="container mx-auto">
 			<h2 className="text-4xl font-bold text-neon-green text-center mb-16">How It Works</h2>
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -145,7 +145,7 @@ const HowItWorks = () => (
 				<div className="flex flex-col items-center text-center">
 					<Trophy className="w-20 h-20 text-neon-green mb-6" />
 					<h3 className="text-2xl font-semibold text-white mb-4">Join the Community</h3>
-					<p className="text-gray-300 text-lg">Interact with Samay and other streamers who can now see your verified chess rating and engage with you.</p>
+					<p className="text-gray-300 text-lg">Interact with chess players from ABESEC who can now see your verified chess rating and engage with you.</p>
 				</div>
 			</div>
 		</div>
@@ -157,7 +157,7 @@ const Leaderboard = () => (
 		initial={{ opacity: 0, scale: 0.9 }}
 		animate={{ opacity: 1, scale: 1 }}
 		transition={{ duration: 0.5 }}
-		className="bg-gradient-to-br from-[#1a3a1a] to-[#0a1f0a] rounded-3xl p-8 shadow-xl transform hover:scale-105 transition-transform duration-300 border border-neon-green/20"
+		className="bg-gradient-to-br from-[#663025] to-[#1b0701] rounded-3xl p-8 shadow-xl transform hover:scale-105 transition-transform duration-300 border border-neon-green/20"
 	>
 		<h2 className="text-3xl font-bold text-neon-green mb-8">Leaderboard</h2>
 		<div className="overflow-x-auto">
@@ -166,15 +166,15 @@ const Leaderboard = () => (
 					<TableRow className="border-b border-neon-green/20">
 						<TableHead className="w-[60px] text-gray-300 text-lg">Rank</TableHead>
 						<TableHead className="text-gray-300 text-lg">Player</TableHead>
-						<TableHead className="text-gray-300 text-lg">BM Points</TableHead>
+						<TableHead className="text-gray-300 text-lg">Community Points</TableHead>
 						<TableHead className="text-gray-300 text-lg">Chess Rating</TableHead>
 					</TableRow>
 				</TableHeader>
 				<TableBody>
 					{[
-						{ rank: 1, name: "Samay Raina", initials: "SR", points: 10000, rating: 1850 },
-						{ rank: 2, name: "Beaststats", initials: "BS", points: 8500, rating: 1900 },
-						{ rank: 3, name: "Drama Queen", initials: "DQ", points: 7800, rating: 1450 },
+						{ rank: 1, name: "Iva Tripathi", initials: "IT", points: 10000, rating: 1850 },
+						{ rank: 2, name: "Naina Srivastava", initials: "NS", points: 8500, rating: 1900 },
+						{ rank: 3, name: "Kavya Singhal", initials: "KS", points: 7800, rating: 1450 },
 					].map((player) => (
 						<TableRow key={player.rank} className="border-b border-neon-green/10">
 							<TableCell className="font-medium text-neon-green text-lg">{player.rank}</TableCell>
@@ -198,17 +198,18 @@ const Leaderboard = () => (
 
 const Features = () => (
 	<div className="flex flex-col space-y-8">
+
 		<FeatureCard
-			title="Interactive Dashboard"
+			title="Interactive Experience"
 			description="Explore real-time data and analytics on your chess performance, predictions, and community engagement."
 			icon={<ChartIcon className="w-12 h-12 text-neon-green" />}
-			className="bg-gradient-to-br from-[#1a3a1a] to-[#0a1f0a] border border-neon-green/20 shadow-lg hover:shadow-neon-green/20 transition-all duration-300 flex-1"
+			className="bg-gradient-to-br from-[#663025] to-[#1b0701] border border-neon-green/20 shadow-lg hover:shadow-neon-green/20 transition-all duration-300 flex-1"
 		/>
 		<FeatureCard
-			title="Make Predictions"
-			description="Predict outcomes of chess matches and events. Win exclusive rewards and climb the leaderboard!"
+			title="Send Challenges"
+			description="Play with the players in the community and enjoy chess."
 			icon={<PredictIcon className="w-12 h-12 text-neon-green" />}
-			className="bg-gradient-to-br from-[#1a3a1a] to-[#0a1f0a] border border-neon-green/20 shadow-lg hover:shadow-neon-green/20 transition-all duration-300 flex-1"
+			className="bg-gradient-to-br from-[#663025] to-[#1b0701] border border-neon-green/20 shadow-lg hover:shadow-neon-green/20 transition-all duration-300 flex-1"
 		/>
 	</div>
 );
@@ -241,25 +242,25 @@ const CommunityFeatures = () => (
 			/>
 			<FeatureCard
 				icon={<PointerIcon className="w-12 h-12 text-neon-green" />}
-				title="Predictions"
-				description="Make predictions on upcoming chess matches and events."
+				title="Events"
+				description="Participate in upcoming events."
 			/>
 			<FeatureCard
 				icon={<GroupIcon className="w-12 h-12 text-neon-green" />}
 				title="Community"
-				description="Engage with fellow chess enthusiasts and Samay Raina fans."
+				description="Engage with fellow chess enthusiasts."
 			/>
 		</div>
 	</section>
 );
 
 const Footer = () => (
-	<footer className="bg-[#1a2a1a] py-8 md:py-12 rounded-t-3xl relative z-10">
+	<footer className="bg-[#1a0a05] py-8 md:py-12 rounded-t-3xl relative z-10">
 		<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div className="grid grid-cols-2 md:grid-cols-5 gap-8">
 				<div className="space-y-4">
-					<h3 className="text-xl font-bold text-neon-green">BM Samay Raina</h3>
-					<p className="text-gray-300 text-sm">India's biggest chess community</p>
+					<h3 className="text-xl font-bold text-neon-green">En Passant</h3>
+					<p className="text-gray-300 text-sm">Delhi NCR's biggest chess community</p>
 					<div className="flex space-x-4">
 						<a href="https://github.com/Bot-Rakshit/bm_frontend/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-neon-green" aria-label="GitHub">
 							<svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -306,7 +307,7 @@ export function LandingPage() {
   return (
     <div className="relative bg-black min-h-screen text-white flex flex-col overflow-x-hidden">
       <Helmet>
-        <title>BM Samay Raina - India's Biggest Chess Community</title>
+        <title>EN PASSANT - Delhi NCR's Biggest Chess Community</title>
         <meta name="description" content="Join BM Samay Raina's ultimate chess community. Connect, compete, and climb the ranks with India's biggest chess streamer and comedian." />
         <meta name="keywords" content="Samay Raina, chess, community, BM Samay, Indian chess, chess streamer" />
         <meta property="og:title" content="BM Samay Raina - India's Biggest Chess Community" />
@@ -316,7 +317,7 @@ export function LandingPage() {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       
-      <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0a1f0a] to-[#1a3a1a] z-0">
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-[#663025] to-[#2b0c02] z-0">
         <div className="absolute inset-0 opacity-20 bg-[url('/chess-pattern.svg')] bg-repeat"></div>
       </div>
 
