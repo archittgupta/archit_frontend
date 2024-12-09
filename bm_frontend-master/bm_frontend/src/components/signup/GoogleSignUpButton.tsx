@@ -11,7 +11,7 @@ export function GoogleSignUpButton({ onClick, isLoading, disabled }: GoogleSignU
   return (
     <Button
       variant="outline"
-      className="w-full bg-white text-gray-900 hover:bg-gray-100 hover:text-green-600 flex items-center justify-center gap-2"
+      className="w-full bg-white text-gray-900 hover:bg-neon-green flex items-center justify-center gap-2"
       onClick={onClick}
       disabled={isLoading || disabled} // Use the disabled prop here
     >

@@ -78,7 +78,7 @@ export default function SignUpCallback() {
 
   return (
     <div className="flex min-h-screen bg-black text-white w-full justify-center items-center font-sans p-4 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0a1f0a] to-[#1a3a1a] z-0">
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-[#000000] to-[#000000] z-0">
         <div className="absolute inset-0 opacity-20 bg-[url('/chess-pattern.svg')] bg-repeat"></div>
       </div>
       
@@ -91,12 +91,12 @@ export default function SignUpCallback() {
         animate="visible"
         variants={fadeIn}
         transition={{ duration: 0.5 }}
-        className="bg-gradient-to-br from-[#1a3a1a] to-[#0a1f0a] p-6 rounded-3xl border border-neon-green/20 w-full max-w-5xl shadow-2xl shadow-neon-green/20 relative z-10 overflow-hidden"
+        className="bg-gradient-to-br from-[#000000] to-[#663025] p-6 rounded-3xl border border-neon-green/20 w-full max-w-5xl shadow-2xl shadow-neon-green/20 relative z-10 overflow-hidden"
       >
         <div className="flex flex-col lg:flex-row gap-8 h-full">
           <div className="lg:w-2/5 flex flex-col justify-center items-center p-4 md:p-8 relative rounded-lg">
             <img src={signupimage} alt="Chess community" className="absolute inset-0 object-cover w-full h-full rounded-lg opacity-70" />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#1a3a1a]/70 to-transparent rounded-lg"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#663025]/70 to-transparent rounded-lg"></div>
             <div className="relative z-10 text-center md:text-left md:mt-auto md:mb-12">
               <h1 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-neon-green">
                 Join India's Biggest Chess Community

@@ -39,7 +39,7 @@ export default function SignUp() {
 
   return (
     <div className="flex min-h-screen bg-black text-white w-full justify-center items-center font-sans p-4 overflow-hidden contain-paint">
-      <div className="contain-paint absolute inset-0 bg-gradient-to-br from-black via-[#0a1f0a] to-[#1a3a1a] z-0">
+      <div className="contain-paint absolute inset-0 bg-gradient-to-br from-black via-[#663025] to-[#000000] z-0">
         <div className="absolute inset-0 opacity-20 bg-[url('/chess-pattern.svg')] bg-repeat fa"></div>
       </div>
 
@@ -60,18 +60,18 @@ export default function SignUp() {
         animate="visible"
         variants={fadeIn}
         transition={{ duration: 0.5 }}
-        className="bg-gradient-to-br from-[#1a3a1a] to-[#0a1f0a] p-4 sm:p-6 rounded-3xl border border-neon-green/20 w-full max-w-5xl shadow-2xl shadow-neon-green/20 relative z-10"
+        className="bg-gradient-to-br from-[#000000] to-[#663025] p-4 sm:p-6 rounded-3xl border border-neon-green/20 w-full max-w-5xl shadow-2xl shadow-neon-green/20 relative z-10"
       >
         <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 h-full">
           <div className="lg:w-3/5 flex flex-col justify-center rounded-2xl overflow-hidden relative">
             <img src={signupimage} alt="Chess community" className="absolute inset-0 object-cover w-full h-full rounded-2xl opacity-70" />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#1a3a1a]/70 to-transparent rounded-2xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#663025]/70 to-transparent rounded-2xl"></div>
             <div className="relative z-10 text-left space-y-4 sm:space-y-6 p-4 sm:p-6">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 sm:mb-4 text-neon-green leading-tight">
                 Join the Ultimate Chess Community
               </h1>
               <p className="text-lg sm:text-xl lg:text-2xl mb-4 sm:mb-8 text-gray-300">
-                Connect, compete, and climb the ranks with BM Samay Raina!
+                Connect, compete, and climb the ranks with EN Passant!
               </p>
               <div className="grid grid-cols-2 gap-4 sm:gap-6">
                 {[
@@ -98,7 +98,7 @@ export default function SignUp() {
               {error && <p className="text-red-400 text-center mt-4">{error}</p>}
               <div className="text-center text-gray-400 mt-4 sm:mt-6">
                 Already have an account?{" "}
-                <button onClick={handleGoogleSignUp} className="font-medium text-neon-green hover:text-neon-green-light transition-colors duration-300">
+                <button onClick={handleGoogleSignUp} className="font-medium text-neon-green">
                   Sign in here
                 </button>
               </div>
