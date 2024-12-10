@@ -103,7 +103,7 @@ export default function SignUp() {
                 </button>
               </div>
               <p className="text-xs text-gray-400 mt-4 text-center">
-                BM Samay Raina's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer" className="text-neon-green hover:underline">Google API Services User Data Policy</a>, including the Limited Use requirements.
+                En Passant's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer" className="text-neon-green hover:underline">Google API Services User Data Policy</a>, including the Limited Use requirements.
               </p>
               <p className="text-xs text-gray-400 mt-2 text-center">
                 By signing up, you agree to our{" "}
