@@ -165,3 +165,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+To do list in the site
+1. removing live button
+2. change the links in the whole project
+3. update the logo into something better
+4. connect the backend
