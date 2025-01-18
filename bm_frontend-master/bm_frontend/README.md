@@ -168,7 +168,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 
 To do list in the site
-1. removing live button
-2. change the links in the whole project
+1. removing live button ===
+2. change the links in the whole project ===
 3. update the logo into something better
 4. connect the backend

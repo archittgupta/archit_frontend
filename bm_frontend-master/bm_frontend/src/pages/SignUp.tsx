@@ -60,7 +60,7 @@ export default function SignUp() {
         animate="visible"
         variants={fadeIn}
         transition={{ duration: 0.5 }}
-        className="bg-gradient-to-br from-[#000000] to-[#663025] p-4 sm:p-6 rounded-3xl border border-neon-green/20 w-full max-w-5xl shadow-2xl shadow-neon-green/20 relative z-10"
+        className="bg-gradient-to-br from-[#260606] to-[#663025] p-4 sm:p-6 rounded-3xl border border-neon-green/20 w-full max-w-5xl shadow-2xl shadow-neon-green/20 relative z-10"
       >
         <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 h-full">
           <div className="lg:w-3/5 flex flex-col justify-center rounded-2xl overflow-hidden relative">
@@ -75,10 +75,10 @@ export default function SignUp() {
               </p>
               <div className="grid grid-cols-2 gap-4 sm:gap-6">
                 {[
-                  { icon: BarChart2, text: "Interactive Dashboards" },
-                  { icon: Zap, text: "Live Predictions" },
+                  { icon: BarChart2, text: "Interactive Sessions" },
+                  { icon: Zap, text: "Live Games" },
                   { icon: Award, text: "Exclusive Rewards" },
-                  { icon: Users, text: "Vibrant Community" }
+                  { icon: Users, text: "Wholesome Community" }
                 ].map(({ icon: Icon, text }, index) => (
                   <div key={index} className="flex items-center space-x-2 sm:space-x-3">
                     <Icon className="w-6 h-6 sm:w-8 sm:h-8 text-neon-green" />

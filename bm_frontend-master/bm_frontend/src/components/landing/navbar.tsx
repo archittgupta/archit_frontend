@@ -53,12 +53,7 @@ export function Navbar() {
                 <Link to="/signup">Sign Up</Link>
               </Button>
             )}
-            <Button className="bg-neon-green text-black hover:bg-neon-green/80 transition-all duration-300 rounded-full px-6 py-2 font-semibold text-sm flex items-center shadow-md shadow-neon-green/30" asChild>
-              <a href="https://www.youtube.com/channel/UCAov2BBv1ZJav0c_yHEciAw/streams" target="_blank" rel="noopener noreferrer">
-                <Youtube className="h-4 w-4 mr-2" />
-                <span>Live</span>
-              </a>
-            </Button>
+            
           </div>
           <motion.button
             className="md:hidden text-white hover:text-neon-green transition-colors duration-300"
