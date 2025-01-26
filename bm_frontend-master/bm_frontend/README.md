@@ -173,4 +173,4 @@ To do list in the site
 3. update the logo into something better
 4. connect the backend
 5. practice js
-6. gfsdgsdhhg
+
